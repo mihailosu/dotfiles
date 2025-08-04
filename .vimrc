@@ -11,6 +11,10 @@ call plug#end()
 
 nmap <silent> <C-T> :NERDTreeToggle<CR>
 
+" Use K to show documentation via coc.nvim
+nnoremap <silent> K :call CocActionAsync('doHover')<CR>
+
+
 let g:coc_global_extensions = ['coc-json', 'coc-pyright', 'coc-java', 'coc-markdownlint', 'coc-snippets', 'https://github.com/rafamadriz/friendly-snippets@main', 'coc-pydocstring']
 
 
