@@ -6,6 +6,7 @@ Plug 'dense-analysis/ale'          " Linter and fixer
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Language server & autocompletion
 
 Plug 'sainnhe/everforest' " Vim theme
+Plug 'mileszs/ack.vim'
 
 call plug#end()
 
