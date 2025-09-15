@@ -8,6 +8,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} " Language server & autocompleti
 Plug 'sainnhe/everforest' " Vim theme
 Plug 'mileszs/ack.vim'
 
+Plug 'wellle/context.vim'
+
 call plug#end()
 
 nmap <silent> <C-T> :NERDTreeToggle<CR>
