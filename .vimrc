@@ -22,6 +22,10 @@ Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
+" Copy to clipboard
+nnoremap Y "+y
+
+
 nmap <silent> <C-T> :NERDTreeToggle<CR>
 
 " Use K to show documentation via coc.nvim
@@ -47,10 +51,12 @@ nnoremap <leader>g :Rg<CR>
 " Map <leader>p to quickly find and open files (like VS Code's Ctrl+P)
 nnoremap <leader>p :Files<CR>
 
+" Block folding
+set foldmethod=indent
+set foldlevelstart=15
 
 syntax on
 set number
-set relativenumber
 set tabstop=4
 set shiftwidth=4
 set expandtab
